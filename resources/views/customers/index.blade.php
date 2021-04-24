@@ -101,7 +101,11 @@
 
     <script>
       $(document).ready( function () {
-        $('#myTable').DataTable();
+        $('#myTable').DataTable({
+            "aoColumnDefs": [
+            { 'bSortable': false, 'aTargets': [ 5 ] }
+          ]
+        });
       } );
     </script>
 @endsection

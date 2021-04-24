@@ -10,10 +10,12 @@
                 <h4 class="mt-5 mb-5">Create New Customer</h4>
             </span>
 
-            <div class="btn-group btn-group-sm pull-right" role="group">
-                <a href="{{ route('customers.customer.index') }}" class="btn btn-primary" title="Show All Customer">
-                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
-                </a>
+            <div class="row justify-content-end pr-4">
+                <div class="btn-group btn-group-sm pull-right" role="group">
+                    <a href="{{ route('customers.customer.index') }}" class="btn btn-primary" title="Show All Customer">
+                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                    </a>
+                </div>
             </div>
 
         </div>
